@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellWorld", "HellWorld\HellWorld.csproj", "{D464D642-F5EB-4617-BDE0-120A46F649F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodorData", "HodorData\HodorData.csproj", "{BE78F8F1-5926-4B4C-A189-C51849A1E6BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodorCustomWinForms", "HodorCustomWinForms\HodorCustomWinForms.csproj", "{243D8AA6-0591-4AD1-9ECD-45A056D7A5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{19659293-F9BC-4374-85F6-2A07E0353894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewNavigation", "ViewNavigation\ViewNavigation.csproj", "{782DF7C9-75E7-471D-8FE0-5487EA47E15E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workaholic.RTFEditor", "Workaholic.RTFEditor\Workaholic.RTFEditor.csproj", "{4A366758-F55D-4D40-A2E4-13507CCE3A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D464D642-F5EB-4617-BDE0-120A46F649F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D464D642-F5EB-4617-BDE0-120A46F649F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D464D642-F5EB-4617-BDE0-120A46F649F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D464D642-F5EB-4617-BDE0-120A46F649F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE78F8F1-5926-4B4C-A189-C51849A1E6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE78F8F1-5926-4B4C-A189-C51849A1E6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE78F8F1-5926-4B4C-A189-C51849A1E6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE78F8F1-5926-4B4C-A189-C51849A1E6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243D8AA6-0591-4AD1-9ECD-45A056D7A5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243D8AA6-0591-4AD1-9ECD-45A056D7A5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243D8AA6-0591-4AD1-9ECD-45A056D7A5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243D8AA6-0591-4AD1-9ECD-45A056D7A5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19659293-F9BC-4374-85F6-2A07E0353894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19659293-F9BC-4374-85F6-2A07E0353894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19659293-F9BC-4374-85F6-2A07E0353894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19659293-F9BC-4374-85F6-2A07E0353894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782DF7C9-75E7-471D-8FE0-5487EA47E15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782DF7C9-75E7-471D-8FE0-5487EA47E15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782DF7C9-75E7-471D-8FE0-5487EA47E15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782DF7C9-75E7-471D-8FE0-5487EA47E15E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

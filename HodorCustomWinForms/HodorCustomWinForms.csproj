@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{243D8AA6-0591-4AD1-9ECD-45A056D7A5AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HodorCustomWinForms</RootNamespace>
+    <AssemblyName>HodorCustomWinForms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainWindowDisplay\EndBossFinalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindowDisplay\EndBossFinalForm.Designer.cs">
+      <DependentUpon>EndBossFinalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowDisplay\HodorMainViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainWindowDisplay\HodorMainViewControl.Designer.cs">
+      <DependentUpon>HodorMainViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowDisplay\MainHodorWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindowDisplay\MainHodorWindow.Designer.cs">
+      <DependentUpon>MainHodorWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionDisplay\HodorSessionInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SessionDisplay\HodorSessionInfoControl.Designer.cs">
+      <DependentUpon>HodorSessionInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SessionDisplay\HodorSessionInfoListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SessionDisplay\HodorSessionInfoListItem.Designer.cs">
+      <DependentUpon>HodorSessionInfoListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskListDisplay\HodorCreateTaskControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskListDisplay\HodorCreateTaskControl.Designer.cs">
+      <DependentUpon>HodorCreateTaskControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskListDisplay\HodorTaskListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskListDisplay\HodorTaskListControl.Designer.cs">
+      <DependentUpon>HodorTaskListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskListDisplay\HodorTaskListItemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskListDisplay\HodorTaskListItemControl.Designer.cs">
+      <DependentUpon>HodorTaskListItemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextEditorDisplay\ApplicationControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextEditorDisplay\TextEditorContainerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextEditorDisplay\TextEditorContainerControl.Designer.cs">
+      <DependentUpon>TextEditorContainerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewExplorerDisplay\HodorTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TreeViewExplorerDisplay\HodorTreeView.Designer.cs">
+      <DependentUpon>HodorTreeView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainWindowDisplay\EndBossFinalForm.resx">
+      <DependentUpon>EndBossFinalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindowDisplay\HodorMainViewControl.resx">
+      <DependentUpon>HodorMainViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindowDisplay\MainHodorWindow.resx">
+      <DependentUpon>MainHodorWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SessionDisplay\HodorSessionInfoControl.resx">
+      <DependentUpon>HodorSessionInfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SessionDisplay\HodorSessionInfoListItem.resx">
+      <DependentUpon>HodorSessionInfoListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskListDisplay\HodorCreateTaskControl.resx">
+      <DependentUpon>HodorCreateTaskControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskListDisplay\HodorTaskListControl.resx">
+      <DependentUpon>HodorTaskListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskListDisplay\HodorTaskListItemControl.resx">
+      <DependentUpon>HodorTaskListItemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeViewExplorerDisplay\HodorTreeView.resx">
+      <DependentUpon>HodorTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contracts\Contracts.csproj">
+      <Project>{19659293-f9bc-4374-85f6-2a07e0353894}</Project>
+      <Name>Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewNavigation\ViewNavigation.csproj">
+      <Project>{782df7c9-75e7-471d-8fe0-5487ea47e15e}</Project>
+      <Name>ViewNavigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Workaholic.RTFEditor\Workaholic.RTFEditor.csproj">
+      <Project>{4a366758-f55d-4d40-a2e4-13507cce3a78}</Project>
+      <Name>Workaholic.RTFEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TextEditorDisplay\AppControl.bmp" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
