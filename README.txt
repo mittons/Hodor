@@ -1,0 +1,1 @@
+To test program open HellWorld\bin\Debug and run HellWorld.exe
